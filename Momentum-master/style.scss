@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+header {
+    background-image: url("../Momentum-master/images/bg.jpg");
+    padding: 50px;
+    color: white;
+
+    nav a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+}
+
+
+
+.title {
+    text-align: center;
+}
