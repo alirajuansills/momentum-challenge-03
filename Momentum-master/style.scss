@@ -3,20 +3,29 @@
 }
 
 body {
-    background-color: gray;
+    background-color: rgb(238, 238, 238);
+    margin: 50px 0px;
+    padding: 0;
+    text-align: center;
+    align-content: center;
 }
 
 header {
     background-image: url("../Momentum-master/images/bg.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 90rem;
+    text-align: center;
     padding: 50px;
-    color: white;
+    color: black;
 
     nav a {
         text-decoration: none;
-        color: white;
+        color: black;
     }
     
     ul {
+        text-align: center;
         list-style-type: none;
     }
 }
@@ -25,4 +34,44 @@ header {
 
 .title {
     text-align: center;
+}
+
+.form {
+    // margin: 50px 0px;
+    // display: inline-block;
+    // margin-left: auto;
+    // margin-right: auto;
+    margin: 50px;
+    border-radius: 10px;
+    background-color: white;
+    
+    fieldset {
+        background-color: white;
+        padding: 35px;
+        border-radius: 5px;
+        border-color: transparent;
+        text-align: left;
+    }
+
+    label {
+    margin-left: 5px;
+        text-align: left;
+    }
+
+    input {
+        margin: 5px;
+    }
+
+    .labelInput {
+        margin: 10px;
+    }
+
+    button {
+        padding: 5px 17px;
+        background-color: rgb(1, 161, 253);
+        border-color: transparent;
+        border-radius: 5px;
+        color: white;
+        text-align: center;
+    }
 }
