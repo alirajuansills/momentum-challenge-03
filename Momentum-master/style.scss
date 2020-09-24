@@ -37,13 +37,11 @@ header {
 }
 
 .form {
-    // margin: 50px 0px;
-    // display: inline-block;
-    // margin-left: auto;
-    // margin-right: auto;
-    margin: 50px;
-    border-radius: 10px;
-    background-color: white;
+   
+ max-width: 500px;
+   margin: 0 auto;
+
+    
     
     fieldset {
         background-color: white;
@@ -60,6 +58,8 @@ header {
 
     input {
         margin: 5px;
+        padding: 5px 25px;
+        border-radius: 5px;
     }
 
     .labelInput {
@@ -68,10 +68,13 @@ header {
 
     button {
         padding: 5px 17px;
+        margin: 5px;
         background-color: rgb(1, 161, 253);
         border-color: transparent;
         border-radius: 5px;
         color: white;
         text-align: center;
+        padding: 5px 40px;
+        
     }
 }
